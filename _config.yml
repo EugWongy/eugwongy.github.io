@@ -21,9 +21,9 @@ author: Eugene Wong
 
 navbar-links:
   About Me: "aboutme"
+  My professional experience: "professional"
   Blogs:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+
 
 ################
 # --- Logo --- #
