@@ -12,4 +12,4 @@ jobs:
       - name: Badges - professional
         uses: pemtajo/badge-readme@main
         with:       
-          CREDLY_USER: <eugene-wong.71f6a6cd_credly>
+          CREDLY_USER: eugene-wong.71f6a6cd
