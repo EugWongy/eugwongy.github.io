@@ -1,9 +1,7 @@
 name: Update badges
 
-on: workflow_dispatch
-#  schedule:
-    # Runs at 0am UTC every day
-#    - cron: "0 0 * * *"
+on: push
+
 jobs:
   update-professional:
     name: Update professional with badges
@@ -11,5 +9,5 @@ jobs:
     steps:
       - name: Badges - professional
         uses: pemtajo/badge-readme@main
-        with:       
-          CREDLY_USER: <eugene-wong.71f6a6cd>
+        with:
+          CREDLY_USER: <eugene-wong.71f6a6cd_credly>
