@@ -9,12 +9,10 @@ Hi! I'm Eugene :wave:
 I'm a husband, father, adventurer, ICT specialist, business owner and mental health advocate.
 
 ### My aims in life
-
 1. Empower and help others embrace simplicity in life to be more efficient and to achieve a more balanced lifestyle.
 2. Protect and assist others from the malicious use of technology.
 
 ### What I'm passionate about
-
 - Cybersecurity & Technology
 - Mental health
 - Self sufficient gardening
@@ -22,7 +20,8 @@ I'm a husband, father, adventurer, ICT specialist, business owner and mental hea
 
 ### A little about me
 
-### My Skillset
+
+### My other interests and hobbies
 
 
 
@@ -46,5 +45,5 @@ Raise funds for the Oaktree Foundation through an interfaith charity banquet wit
 
 <details>
 <summary>Eyes on the Street</summary>
-[A safer neighbourhood initiative partnerinig with driving instructors](https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135)
+A safer neighbourhood initiative partnerinig with driving instructors.- https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135
 </details>
