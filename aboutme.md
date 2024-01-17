@@ -4,12 +4,11 @@ title: About me
 subtitle: More about me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi! I'm Eugene :wave:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I'm a husband, father, adventurer, ICT specialist, business owner and mental health advocate.
 
-What else do you need?
+###
 
 ### My story
 
