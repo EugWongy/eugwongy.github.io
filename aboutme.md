@@ -36,5 +36,5 @@ Responsible for the coordination, set up, maintenance, procurement, disposal and
 Raise funds for the Oaktree Foundation through an interfaith charity banquet with the aim of sharing religious beliefs and develop understanding of other faiths.
 
 ##### Eyes on the Street
-[A safer neighbourhood initiative partnerinig with driving instructors] (https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135)
+[A safer neighbourhood initiative partnerinig with driving instructors](https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135)
 
