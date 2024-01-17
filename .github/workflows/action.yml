@@ -5,7 +5,7 @@ on: workflow_dispatch
     # Runs at 0am UTC every day
 #    - cron: "0 0 * * *"
 jobs:
-  update-readme:
+  update-professional:
     name: Update professional with badges
     runs-on: ubuntu-latest
     steps:
