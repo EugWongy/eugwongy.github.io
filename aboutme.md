@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: More about me
+subtitle: husband & father | adventurer | ICT specialist | business owner of [b.Simple Solutions](https://bsimple.space) | mental health advocate
 ---
 
 Hi! I'm Eugene 👋
 
-I'm a husband & father, adventurer, ICT specialist, business owner of [b.Simple Solutions](https://bsimple.space) and mental health advocate.
+This profile was initially created as part of my interest to self-learn HTML and CSS, after helping friends with updating their websites. I very quickly learnt that I love building websites using HTML and CSS. I then started dabbling with Github and Markdown, and here I am, excited to embrace the amazing possibilities. Let's connect and create something awesome! 🚀
 
 ---
 
@@ -33,8 +33,6 @@ I'm the friendly face known for my infectious smile 😀 and a knack for getting
 My brain's wired a bit differently (thanks, childhood ADHD), which makes me a unique thinker. Embracing my neurodivergence and my hands-on learning style has turned out to be a superpower. I'm not one for "we've always done it this way"; I'm all about seeking new and innovative approaches.
 
 My neurodivergent brain, hands on learning style and love to tinker with my hands are perhaps the reason why I've always had a need for new experiences and love learning new things. I love to travel and see the world. Adventure is always around the corner.
-
-This profile was initially created as part of my interest to self-learn HTML and CSS, after helping friends with updating their websites. I very quickly learnt that I love building websites using HTML and CSS. I then started dabbling with Github and Markdown, and here I am, excited to embrace the amazing possibilities. Let's connect and create something awesome! 🚀
 
 ---
 
