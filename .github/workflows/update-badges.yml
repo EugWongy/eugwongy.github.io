@@ -1,6 +1,11 @@
 name: Update badges
 
-on: push
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  permissions:
+    contents: write
 
 jobs:
   update-professional:
@@ -10,4 +15,4 @@ jobs:
       - name: Badges - professional
         uses: pemtajo/badge-readme@main
         with:
-          CREDLY_USER: <eugene-wong.71f6a6cd_credly>
+          CREDLY_USER: <eugene-wong.71f6a6cd>
