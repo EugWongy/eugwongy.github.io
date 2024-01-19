@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: husband & father | adventurer | ICT specialist | business owner of [b.Simple Solutions](https://bsimple.space) | mental health advocate
+subtitle: Husband & father | Adventurer | ICT specialist | Business owner of b.Simple Solutions
 ---
 
 Hi! I'm Eugene 👋

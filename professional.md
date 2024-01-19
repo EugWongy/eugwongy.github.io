@@ -44,5 +44,10 @@ Whatever it is, I love solving problems and seeing the smile of others when I've
 
 ### My credly badges
 
-<!--START_SECTION:badges-->
-<!--END_SECTION:badges-->
+<html>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="46459fd0-5709-41f8-a292-a43c720a6789" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="65da2141-d6f9-421a-80b2-df2fb52fff13" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="00e3011f-cfbf-413d-9c4c-c383af9fe96e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</html>
