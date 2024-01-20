@@ -22,7 +22,7 @@ author: Eugene Wong
 navbar-links:
   About Me: "aboutme"
   My professional experience: "professional"
-  Blogs:
+  Blogs: "_posts\2024-01-20-hacking-your-account-part-1-username-and-passwords"
 
 ################
 # --- Logo --- #
