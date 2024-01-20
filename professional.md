@@ -1,12 +1,19 @@
 ---
 layout: page
 title: My professional experience
-subtitle: More about me
+subtitle: Knowledge, skills & experience
 ---
 
 ### My work experience
 
-Whatever it is, I love solving problems and seeing the smile of others when I've helped them solve their technology problems. I specialise in hardware, systems and cybersecurity issues because I love tinkering with my hands and solving problems. Having started my IT interest long ago as a kid- my first interest was hacking passwords that my parents put on the computer to stop me from playing games. This led to putting computers together from spare parts when the computer was taken away. As a result, I'm very adept at self-directed learning to overcome technology challenges, as well as my problem-solving skills.
+Diversity. That's the only word to describe my work experience. I've worked as a pizza maker, polling assistant, research assistant, academic tutor at university, driving instructor, private investigator, operations coodinator, welfare officer, project officer, road trauma client support officer, IT networking and support and cybersecurity. I've gained a whole lot of knowledge and skills in the areas of ICT and community services.
+
+I seek a challenge to apply my problem solving skills and chance to learn new knowledge and skills throughout my diverse work experience. One thing that I have learnt about myself is that I can't run away from being in ICT. So much so that what I consider my top career achievements are related to ICT- publicly recognised by Microsoft Security Research Centre for identifying and reporting an elevation of priviledge security vulnerability in the Microsoft Office app [CVE-2022-24480](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-24480) and I have been called to provide evidence for the District Court of WA regarding the integrity of electronic documents and records.
+
+No matter where I go, I'm always asked to help with solving ICT issues or have IT related job scopes as my secondary role.
+
+Having started my ICT interest long ago as a kid- my first interest was hacking passwords that my parents put on the computer to stop me from playing games. This led to putting computers together from spare parts when the computer was taken away. I often got bored in school (thanks to childhood ADHD), but have always stayed focus on computers as there's always a problem to be solved.
+As a result, I'm very adept at self-directed learning to overcome technology issue.
 
 ### Training & Qualifications
 
@@ -21,17 +28,16 @@ Whatever it is, I love solving problems and seeing the smile of others when I've
 
 ### Industries that I've worked in
 
-| Industry                                        | Area of Practice                                                            | Key Knowledge & Skills                              |
-| ----------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------- |
-| Cybersecurity                                   | Analyst, Investigations and Advice, Penetration Testing (basic)             | Kali Linux, CAINE, Cyber Triage, _Privacy Act 1988_ |
-| Information and Communications Technology (ICT) | Networking, Systems administration, Website development, Web administration | Fault finding,                                      |
-| Healthcare and Community Services               | Social welfare, Mental health                                               |
-| Investigations                                  |
-| Research                                        | Organisational Psychology, Human Resource Management                        |
-| Tertiary education                              |
-| Transport & Logistics                           | Car driving instruction                                                     |
-| Food                                            |
-| Retail                                          |
+- Cybersecurity
+- Information and Communications Technology (ICT)\
+- Healthcare and Community Services
+- Government
+- Investigations
+- Research
+- Tertiary education
+- Transport & Logistics
+- Food
+- Retail
 
 ### Professional projects
 
