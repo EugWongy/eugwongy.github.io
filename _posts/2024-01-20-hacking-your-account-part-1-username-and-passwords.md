@@ -106,12 +106,10 @@ Stay safe, stay secured peeps!
 
 <html>
 <hr>
-<table>
-<tr><td>
-    <img src="https://eugwongy.github.io/assets/img/ew.png" data-align="left" alt="photo of eugene for blog" width="180" height="180"></td>
-
-<td><h3>Eugene Wong</h3>
-<p><em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
+<h5><img src="https://eugwongy.github.io/assets/img/ew.png" align="left" alt="photo of eugene for blog" width="180" height="100%"></h5>
+<h3>Eugene Wong</h3>
+<p>
+    <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
 </p>
 <p style="font-family:arial;">
     Eugene is all about making tech easier for everyone. Cyber security, computing systems, and networks are Eugene’s specialties. His curiosity and passion for technology started from a young age where there were never ending challenges for him to break into password protected systems. He now uses the skills he’s learnt for good helping people with their technology issues.
@@ -119,7 +117,5 @@ Stay safe, stay secured peeps!
 <p style="font-family:arial;">
     <a class="btn btn-warning" style="margin-left:175px;" href="https://share.hsforms.com/1HE-nMh7HQQewHTfgUzGccwnuqwm" target="_blank">Join Eugene's mailing list here</a>
 </p>
-</td></tr>
-</table>
 <hr>
 </html>
