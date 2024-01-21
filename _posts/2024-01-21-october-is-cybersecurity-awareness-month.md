@@ -90,7 +90,7 @@ And for those who run into trouble, I'm on hand to help you with any issues that
 
 <html>
 <hr>
-<h5><img src="https://eugwongy.github.io/assets/img/ew.png" align="left" alt="photo of eugene for blog" width="130" height="100%"></h5>
+<h5><img src="https://eugwongy.github.io/assets/img/ew.png" align="left" alt="photo of eugene for blog" width="100" height="100%"></h5>
 <h3>Eugene Wong</h3>
 <p>
     <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
