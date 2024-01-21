@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   My professional experience: "professional"
   Blogs:
-    - Hacking your account part 1- Username and password: (_posts\2024-01-20-hacking-your-account-part-1-username-and-passwords)
+    - Hacking your account part 1- Username and password: "_posts\2024-01-20-hacking-your-account-part-1-username-and-passwords.md"
 
 ################
 # --- Logo --- #
