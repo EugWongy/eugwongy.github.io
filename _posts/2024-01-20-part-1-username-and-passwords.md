@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Hacking your account
-subtitle: Part 1- Username and passwords
+title: Hacking your account Part 1- Username and passwords
 readtime: true
 tags: [cybersecurity]
 author: Eugene Wong
