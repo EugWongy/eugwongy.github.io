@@ -103,3 +103,18 @@ There is ALWAYS a tradeoff between SECURITY and CONVENIENCE. I hope that now tha
 - activate multi-factor authentication.
 
 Stay safe, stay secured peeps!
+
+<hr>
+<h5>
+    <img src="assets\img\bgimage.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
+</h5>
+<p>
+    <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
+</p>
+<p style="font-family:arial;">
+    Eugene is all about making tech easier for everyone. Cyber security, computing systems, and networks are Eugene’s specialties. His curiosity and passion for technology started from a young age where there were never ending challenges for him to break into password protected systems. He now uses the skills he’s learnt for good helping people with their technology issues.
+</p>
+<p style="font-family:arial;">
+    <a class="btn btn-warning" style="margin-left:175px;" href="https://share.hsforms.com/1HE-nMh7HQQewHTfgUzGccwnuqwm" target="_blank">Join Eugene's mailing list here</a>
+</p>
+<hr>
