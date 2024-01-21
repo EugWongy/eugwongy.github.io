@@ -106,7 +106,7 @@ Stay safe, stay secured peeps!
 
 <html>
 <hr>
-<h5><img src="https://eugwongy.github.io/assets/img/ew.png" align="left" alt="photo of eugene for blog" width="180" height="100%"></h5>
+<h5><img src="https://eugwongy.github.io/assets/img/ew.png" align="left" alt="photo of eugene for blog" width="130" height="100%"></h5>
 <h3>Eugene Wong</h3>
 <p>
     <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
