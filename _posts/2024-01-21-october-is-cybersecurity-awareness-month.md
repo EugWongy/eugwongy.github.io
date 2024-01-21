@@ -1,11 +1,11 @@
 ---
 layout: post
 title: October is Cybersecurity Awarenes Month
-subtitle:
+subtitle: First released 28 October 2023
 readtime: true
 tags: [cybersecurity]
 author: Eugene Wong
-thumbnail-img: "assets/img/blog/blog_ 20240120_hackimage.jpeg"
+thumbnail-img: "assets/img/blog/blog_20240121_cybersecurity_awareness_month_2023.jpg"
 ---
 
 ### Quick read
@@ -90,7 +90,7 @@ And for those who run into trouble, I'm on hand to help you with any issues that
 
 <hr>
 <h5>
-    <img src="assets\img\bgimage.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
+    <img src="assets/img/bgimage.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
 </h5>
 <p>
     <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
