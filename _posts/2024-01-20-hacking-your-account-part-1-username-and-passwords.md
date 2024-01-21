@@ -8,7 +8,7 @@ author: Eugene Wong
 thumbnail-img: "assets/img/blog/blog_ 20240120_hackimage.jpeg"
 ---
 
-### Quick read
+---
 
 - Hackers are motivated to get into your accounts for monetary purposes such as scamming the people you know, selling your details, applying for credit in your name, hired to target you or use your device and account as part of a larger and evil plan.
 - There are three general methods for obtaining your username and password- purely guessing (a.ka. brute forcing), giving it up yourself (e.g. social engineering, getting scammed, writing it down) and getting into the database that stores your username and password.
@@ -104,9 +104,10 @@ There is ALWAYS a tradeoff between SECURITY and CONVENIENCE. I hope that now tha
 
 Stay safe, stay secured peeps!
 
+<html>
 <hr>
 <h5>
-    <img src="assets/img/bgimage.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
+    <img src="assets\img\ew.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
 </h5>
 <p>
     <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
@@ -118,3 +119,4 @@ Stay safe, stay secured peeps!
     <a class="btn btn-warning" style="margin-left:175px;" href="https://share.hsforms.com/1HE-nMh7HQQewHTfgUzGccwnuqwm" target="_blank">Join Eugene's mailing list here</a>
 </p>
 <hr>
+</html>
