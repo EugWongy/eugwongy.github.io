@@ -107,7 +107,7 @@ Stay safe, stay secured peeps!
 <html>
 <hr>
 <h5>
-    <img src="assets\img\ew.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
+    <img src="https://eugwongy.github.io/assets/img/ew.png" data-align="left" data-entity-uuid="f27eb1fb-7b7e-43d8-86fa-20463609207a" data-entity-type="file" alt="photo of eugene for blog" width="180" height="100%">Eugene Wong
 </h5>
 <p>
     <em>Cybersecurity &amp; Technology Specialist | Business Owner @&nbsp;</em><a href="https://bsimple.space/"><em>b.Simple Solutions</em></a>
