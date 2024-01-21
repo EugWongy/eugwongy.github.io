@@ -5,7 +5,7 @@ subtitle: Part 1- Username and passwords
 readtime: true
 tags: [cybersecurity]
 author: Eugene Wong
-thumbnail-img: "assets/img/blog/blog_%20240120_hackimage.png"
+thumbnail-img: "assets/img/blog/blog_ 20240120_hackimage.png"
 ---
 
 ### Quick read
