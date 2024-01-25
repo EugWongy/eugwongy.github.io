@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+layout: page
+title: How you can support me
+subtitle: Checkout my freelance services
+---
+
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -64,6 +69,7 @@
         background-color: #555;
       }
     </style>
+
   </head>
   <body>
     <h2 style="text-align: center">How you can support me</h2>
@@ -72,11 +78,9 @@
 
     <div class="row">
       <div class="column">
-        <div class="card">
-          <img src="/w3images/team1.jpg" alt="Fiverr" style="width: 100%" />
           <div class="container">
             <h2>Fiverr</h2>
-            <p class="title" ;>Freelance services marketplace</p>
+            <p class="title">Freelance services marketplace</p>
             <p>I offer the following freelance services:</p>
             <ul style="text-align: left">
               <li>Manage your website.</li>
@@ -92,11 +96,6 @@
 
       <div class="column">
         <div class="card">
-          <img
-            src="/w3images/team2.jpg"
-            alt="Shutterstock"
-            style="width: 100%"
-          />
           <div class="container">
             <h2>Shutterstock</h2>
             <p class="title">High quality licensed images, videos and music</p>
@@ -110,14 +109,12 @@
 
       <div class="column">
         <div class="card">
-          <img src="/w3images/team3.jpg" alt="Alamy" style="width: 100%" />
           <div class="container">
             <h2>Alamy</h2>
             <p class="title">
               World's most inclusive collection of stock images, videos and
-              vectors
-            </p>
-            <p></p>
+              vectors</p>
+            <p>Visit my profile for high quality stock photos.</p>
             <a href="https://www.alamy.com/portfolio/ligenediary">
               <button class="button">Visit</button>
             </a>
@@ -125,5 +122,6 @@
         </div>
       </div>
     </div>
+
   </body>
 </html>
