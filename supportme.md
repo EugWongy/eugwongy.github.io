@@ -70,7 +70,6 @@ subtitle: Checkout my freelance services
       }
     </style>
 
-  </head>
   <body>
     <div class="row">
       <div class="column">
@@ -94,9 +93,9 @@ subtitle: Checkout my freelance services
       <div class="column">
         <div class="card">
           <div class="container">
-            <h2>Shutterstock</h2>
-            <p class="title">High quality licensed images, videos and music</p>
-            <p>Visit my profile for a wide range of stock photos.</p>
+            <h2>b.Simple Solutions</h2>
+            <p class="title">Simple technology solutions</p>
+            <p>ICT & Cybersecurity support for home and small- medium size businesses.</p>
             <a href="https://www.shutterstock.com/g/ligenediary">
               <button class="button">Visit</button>
             </a>
@@ -114,6 +113,21 @@ subtitle: Checkout my freelance services
             </p>
             <p>Visit my profile for high quality stock photos.</p>
             <a href="https://www.alamy.com/portfolio/ligenediary">
+              <button class="button">Visit</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Shutterstock</h2>
+            <p class="title">High quality licensed images, videos and music</p>
+            <p>Visit my profile for a wide range of stock photos.</p>
+            <a href="https://www.shutterstock.com/g/ligenediary">
               <button class="button">Visit</button>
             </a>
           </div>
