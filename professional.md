@@ -13,6 +13,7 @@ I seek a challenge to apply my problem solving skills and chance to learn new kn
 No matter where I go, I'm always asked to help with solving ICT issues or have IT related job scopes as my secondary role.
 
 Having started my ICT interest long ago as a kid- my first interest was hacking passwords that my parents put on the computer to stop me from playing games. This led to putting computers together from spare parts when the computer was taken away. I often got bored in school (thanks to childhood ADHD), but have always stayed focus on computers as there's always a problem to be solved.
+
 As a result, I'm very adept at self-directed learning to overcome technology issue.
 
 ### Training & Qualifications
@@ -29,7 +30,7 @@ As a result, I'm very adept at self-directed learning to overcome technology iss
 ### Industries that I've worked in
 
 - Cybersecurity
-- Information and Communications Technology (ICT)\
+- Information and Communications Technology (ICT)
 - Healthcare and Community Services
 - Government
 - Investigations

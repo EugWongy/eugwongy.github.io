@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+---
+layout: page
+title: test
+subtitle: test 1
+---
+
+### ddsfs
+
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -64,6 +71,7 @@
         background-color: #555;
       }
     </style>
+
   </head>
   <body>
     <h2 style="text-align: center">How you can support me</h2>
@@ -125,5 +133,6 @@
         </div>
       </div>
     </div>
+
   </body>
 </html>
