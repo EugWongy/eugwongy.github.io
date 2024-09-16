@@ -10,14 +10,6 @@ This profile was initially created as part of my interest to self-learn HTML and
 
 ---
 
-### 🚀 My aims in life
-
-1. Empower and help others embrace simplicity in life to be more efficient and to achieve a more balanced lifestyle.
-2. Protect and assist others from the malicious use of technology.
-3. Run my own hobby farm producing my own blend of herbs and teas.
-
----
-
 ### 🔧 Stuff I'm currently working on
 
 - Installing a compostable toilet in caravan
@@ -40,7 +32,7 @@ This profile was initially created as part of my interest to self-learn HTML and
 
 I'm the friendly face known for my infectious smile 😀 and a knack for getting things done. I might come off as a bit shy at first, being the introvert that I am, but once we hit it off, good luck stopping me from talking your ear off! Crowds aren't my scene, but I assure you, I'm all about friendliness. Once you've gotten my trust, I'm a fiercely loyal friend- responsbility and loyalty to my family and friends means the world to me.
 
-I love all things about nature and getting back into nature. Growing my own fruits and vegies, the science behind composting, how does the weather affect the plants, using herbs and plants to help re-balance the body. Nothing better than using the herbs you grow to make a cup of tea, enhance the flavour of food or help alleviate symptoms when you're feeling off. Don't get me wrong, I'm not one of those "hippies"- I'm a evidence based and science believer. 
+I love all things about nature and getting back into nature. Growing my own fruits and vegies, the science behind composting, how does the weather affect the plants, using herbs and plants to help re-balance the body. Nothing better than using the herbs you grow to make a cup of tea, enhance the flavour of food or help alleviate symptoms when you're feeling off. Don't get me wrong, I'm not one of those "hippies"- I'm a evidence based and science believer.
 
 My brain's wired a bit differently (thanks, childhood ADHD), which makes me a unique thinker. Embracing my neurodivergence and my hands-on learning style has turned out to be a superpower. I'm not one for "we've always done it this way"; I'm all about seeking new and innovative approaches.
 
