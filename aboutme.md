@@ -1,36 +1,29 @@
 ---
 layout: page
 title: About me
-subtitle: Husband & father | Adventurer | ICT specialist | Business owner of b.Simple Solutions
+subtitle: Parenting | Families | Mental Health | Economics | Fishing | Adventuring | Neurodiversity
 ---
 
 Hi! I'm Eugene 👋
 
-This profile was initially created as part of my interest to self-learn HTML and CSS, after helping friends with updating their websites. I very quickly learnt that I love building websites using HTML and CSS. I then started dabbling with Github and Markdown, and here I am, excited to embrace the amazing possibilities. Let's connect and create something awesome! 🚀
+Knowledge and information is power and such power can be used to empower others to have better lives. I'm a husband to an amazing wife, a dad to two beautiful girls, a keen problem solver, an amateur lure fishing enthusiast, an adventurer and a passionate economist who wants to make the world a better place for our kids and future generations. 🚀
 
 ---
 
-### 🔧 Stuff I'm currently working on
+### ❤️ What I'm passionate about
 
-- Installing a compostable toilet in caravan
-- CISCO Junior Cybersecurity Analst pathway
-- Planning and preparing for family adventure of "The Lap" around Australia
-- Cold brew coffee
-
----
-
-### ❤️ Stuff I'm passionate about
-
-- Cybersecurity & Technology
-- Mental health
-- Self sufficient gardening
+- Mental health for parents
+- Social policy and the impact on families
+- Economic empowerment
 - Exploring and seeing the world
+- Self sufficient gardening
+- Fishing
 
 ---
 
 ### 😎 A little about me
 
-I'm the friendly face known for my infectious smile 😀 and a knack for getting things done. I might come off as a bit shy at first, being the introvert that I am, but once we hit it off, good luck stopping me from talking your ear off! Crowds aren't my scene, but I assure you, I'm all about friendliness. Once you've gotten my trust, I'm a fiercely loyal friend- responsbility and loyalty to my family and friends means the world to me.
+I’m the friendly face known for my infectious smile 😀 and a knack for getting things done. I might come off as a bit shy at first, being the introvert that I am, but once we hit it off, good luck stopping me from talking your ear off! Crowds aren’t my scene, but I assure you, I’m all about friendliness. Once you’ve gotten my trust, I’m a fiercely loyal friend- responsbility and loyalty to my family and friends means the world to me.
 
 I love all things about nature and getting back into nature. Growing my own fruits and vegies, the science behind composting, how does the weather affect the plants, using herbs and plants to help re-balance the body. Nothing better than using the herbs you grow to make a cup of tea, enhance the flavour of food or help alleviate symptoms when you're feeling off. Don't get me wrong, I'm not one of those "hippies"- I'm a evidence based and science believer.
 
@@ -40,18 +33,7 @@ My neurodivergent brain, hands on learning style and love to tinker with my hand
 
 ---
 
-### 💡 My other interests and hobbies
-
-| Experience                 | What I've done                                                                    | Skills I've acquired                                                                                                     |
-| -------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Car and caravan DIY        | Our adventure machines                                                            | Planning and organising, Logistics, Operations, minor automotive mechanical and electrical (12v) repairs and maintenance |
-| Cooking                    | I love cooking for friends and family                                             | Meal prep, Catering, Knife skills, Kitchen safety, Food Health & Safety, Cookery                                         |
-| Self- sufficient gardening | I grew my own edible garden to be self sustaining                                 | Companion planting, Composting, General maintenance                                                                      |
-| Photography                | Not only a way to remember the wonderful adventures but to also share with others | Photography                                                                                                              |
-
----
-
-### ✋ My past volunteering experiences
+### ✋ <a id="community-services">My community services</a>
 
 Giving back to the community is something I really value.
 
@@ -72,5 +54,5 @@ Raise funds for the Oaktree Foundation through an interfaith charity banquet wit
 
 <details>
 <summary>Eyes on the Street</summary>
-A safer neighbourhood initiative partnerinig with driving instructors- https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135
+[A safer neighbourhood initiative partnerinig with driving instructors](https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135)
 </details>

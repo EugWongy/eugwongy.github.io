@@ -21,7 +21,6 @@ author: Eugene Wong
 
 navbar-links:
   About Me: "aboutme"
-  Support Me: "supportme"
   Professional experience: "professional"
   Blogs:
 
@@ -48,34 +47,9 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "contact@bsimple.space"
-  #  facebook: deanattali
+  email: "ew@eugenewong.com.au"
   github: eugwongy
-#  twitter: daattali
-#  patreon: DeanAttali
-#  youtube: "@daattali"
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
+
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 
 # If you want your website to generate an RSS feed, provide a description
@@ -118,7 +92,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "eugene,wong,eugenewong,eugenewongwa,b.simplesolutions,bsimple,b.simple,cyber,cybersecurity,information,informationsecurity,IT,ICT,informationtechnology,perth,westernaustralia,australia"
+keywords: "eugene,wong,eugenewong,eugene wong wa,eugene wong perth,eugene wong western australia,eugene wong itsy websy technology"
 
 ######################################
 # --- Colours / background image --- #
@@ -266,7 +240,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   - scope:
       path: "" # any file that's not a post will be a "page" layout by default
