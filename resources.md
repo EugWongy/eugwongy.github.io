@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Publicly Available Databases
-subtitle: Publicy available databases
+title: Publicly available databases
+subtitle: Australian and international publicly available databases ready for data analysis
 ---
-My aim here is to compile a list of publicly available databases which relate to common social and welfare groups or organistions.
+My aim here is to compile a list of publicly available databases which relate to common social and welfare groups or organistions. These databases are ready for analysis and I use them myself for analysis with the aim that findings from these data can  help someone out there make evidence based decisions or an informed choice for a better outcome.
 
 
 ### Australian Road Deaths Database
