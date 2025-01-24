@@ -1,39 +1,53 @@
 ---
 layout: page
 title: About me
-subtitle: Parenting | Families | Mental Health | Economics | Fishing | Adventuring | Neurodiversity
+subtitle: 
 ---
 
 Hi! I'm Eugene 👋
 
-Knowledge and information is power and such power can be used to empower others to have better lives. I'm a husband to an amazing wife, a dad to two beautiful girls, a keen problem solver, an amateur lure fishing enthusiast, an adventurer and a passionate economist who wants to make the world a better place for our kids and future generations. 🚀
+I'm 
+ 
 
 ---
 
 ### ❤️ What I'm passionate about
 
-- Mental health for parents
-- Social policy and the impact on families
-- Economic empowerment
-- Exploring and seeing the world
-- Self sufficient gardening
-- Fishing
+- Welfare and Social Economics
+- Community Services
 
 ---
 
 ### 😎 A little about me
 
-I’m the friendly face known for my infectious smile 😀 and a knack for getting things done. I might come off as a bit shy at first, being the introvert that I am, but once we hit it off, good luck stopping me from talking your ear off! Crowds aren’t my scene, but I assure you, I’m all about friendliness. Once you’ve gotten my trust, I’m a fiercely loyal friend- responsbility and loyalty to my family and friends means the world to me.
 
-I love all things about nature and getting back into nature. Growing my own fruits and vegies, the science behind composting, how does the weather affect the plants, using herbs and plants to help re-balance the body. Nothing better than using the herbs you grow to make a cup of tea, enhance the flavour of food or help alleviate symptoms when you're feeling off. Don't get me wrong, I'm not one of those "hippies"- I'm a evidence based and science believer.
 
-My brain's wired a bit differently (thanks, childhood ADHD), which makes me a unique thinker. Embracing my neurodivergence and my hands-on learning style has turned out to be a superpower. I'm not one for "we've always done it this way"; I'm all about seeking new and innovative approaches.
+### My professional skills
 
-My neurodivergent brain, hands on learning style and love to tinker with my hands are perhaps the reason why I've always had a need for new experiences and love learning new things. I love to travel and see the world. Adventure is always around the corner.
+- R
+- SPSS
+- Bash
+- HTML & CSS
+- Computing systems
+- Networking
+- Technical support
+
 
 ---
 
-### ✋ <a id="community-services">My community services</a>
+### My technical skills
+
+- R
+- SPSS
+- Bash
+- HTML & CSS
+- Computing systems
+- Networking
+- Technical support
+
+---
+
+### ✋ My community services
 
 Giving back to the community is something I really value.
 
