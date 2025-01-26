@@ -59,15 +59,16 @@ My aim here is to compile a list of publicly available databases (with an Austra
 
 Each state and territory in Australia has their own publicly accessible database. They're listed below. Most can be filtered based on your topic of interest.
 
-+**Australian Capital Territory (ACT)**: [dataACT](https://www.data.act.gov.au/browse)
-+**New South Wales (NSW)**: [Data.NSW](https://data.nsw.gov.au/data/dataset)
-+**Northern Territory (NT)**: [NTG Open Data Portal](https://data.nt.gov.au/)
-+**Queensland (QLD)**: [Open Data Portal](https://www.data.qld.gov.au/dataset)
-+**South Australia (SA)**: [Data.SA](https://data.sa.gov.au/data/dataset)
-+**Tasmania (TAS)**: Not Available
-+**Victoria (VIC)**: [dataVic](https://discover.data.vic.gov.au/dataset/) 
-+**Western Australia (WA)**: [dataWA](https://catalogue.data.wa.gov.au/dataset) 
-
+<ul>
+	<li>**Australian Capital Territory (ACT)**: [dataACT](https://www.data.act.gov.au/browse)</li>
+	<li>**New South Wales (NSW)**: [Data.NSW](https://data.nsw.gov.au/data/dataset)</li>
+	<li>**Northern Territory (NT)**: [NTG Open Data Portal](https://data.nt.gov.au/)</li>
+	<li>**Queensland (QLD)**: [Open Data Portal](https://www.data.qld.gov.au/dataset)</li>
+	<li>**South Australia (SA)**: [Data.SA](https://data.sa.gov.au/data/dataset)</li>
+	<li>**Tasmania (TAS)**: Not Available</li>
+	<li>**Victoria (VIC)**: [dataVic](https://discover.data.vic.gov.au/dataset/)</li>
+	<li>**Western Australia (WA)**: [dataWA](https://catalogue.data.wa.gov.au/dataset)</li>
+</ul>
 ---
 
 ### Australian Bureau of Statistics
