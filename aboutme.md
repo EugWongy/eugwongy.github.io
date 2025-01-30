@@ -1,20 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Husband | Father | Welfare Economist | Data Analyst | Co-founder of Itsy Websy Technology
+subtitle: Husband & Father | Data Analyst | Welfare Economist | Community Services | Co- Founder of Itsy Websy Technology
 ---
 
 ### 😎 A little about me
 
-I’m the friendly face known for my infectious smile 😀 and a knack for getting things done. I might come off as a bit shy at first, being the introvert that I am, but once we hit it off, good luck stopping me from talking your ear off! Once you’ve gotten my trust, I’m a fiercely loyal friend- responsbility and loyalty to my family and friends means the world to me.
+I believe that data can help take us a long way in making better decisions. I'm passionate about evidence-based decision making and the practical use of it. My areas of interest lie in the practical application of Welfare and Social Economics- the study of the relationship between resource allocation in society and social well-being.
 
-My personality is best described as an INTP (Logician)- Introverted, Intuitive, Thinking, and Prospecting traits. Perhaps the following description of Logician best summarises me:
+My journey with data first started when I studied Economics at University. I later graduated with a Bachelor of Economics (Honours), with majors in Economics, Management and Human Resource Management. My honours journey introduced the art and science of data analytics with my own research project. I found that I excelled in quantitative research and analysis. During that year, I also achieved top grades in HR Analytics, which pulled on a number of Economics concepts at the organisational level. 
 
-> "These flexible thinkers enjoy taking an unconventional approach to many aspects of life. They often seek out unlikely paths, mixing willingness to experiment with personal creativity. People with the INTP personality type (Logicians) pride themselves on their unique perspective and vigorous intellect. They can’t help but puzzle over the mysteries of the universe – which may explain why some of the most influential philosophers and scientists of all time have been INTPs. People with this personality type tend to prefer solitude, as they can easily become immersed in their thoughts when they are left to their own devices. They are also incredibly creative and inventive, and they are not afraid to express their novel ways of thinking or to stand out from the crowd.
+As a result of my Honours research, I was hired as a research assistant by one of the professors who graded my Honours research. Under her guidance, I learnt a lot more about statistical analysis and was involved in a number of research projects, where my responsibilities included collecting the data, cleaning the data, analysing the date, and helping with the write up of research publications. As a result of this, I developed a knack for data collection, data cleaning, exploratory data analysis and regression analysis. My proudest achievement was when my data analytical skills helped conceptualise a piece of research that led to the presentation of the research at an [Academy of Management symposium](#Publication). Since leaving my role in research, my economics knowledge, data analytics and evidence based decision making skills have been applied practically in the various roles  I've undertaken. 
 
->[16Personalities](https://www.16personalities.com/intp-personality)
-
-My brain's wired a bit differently (thanks, childhood ADHD), which makes me a unique thinker. Embracing my neurodivergence and my hands-on learning style has turned out to be a superpower. I'm not one for "we've always done it this way"; I'm all about seeking new and innovative approaches.
+I’m a naturally curious thinker with an infectious smile 😃 and a knack for getting things done. I might seem a little shy at first, but once we click, I won’t stop talking! Loyalty and responsibility are everything to me, especially when it comes to family and friends. As an INTP (Logician), I love exploring unconventional ideas, solving puzzles, and questioning the world around me. My ADHD-wired brain makes me a hands-on learner who thrives on creativity and innovation. I don’t just accept “that’s the way it’s always been”—I’m all about finding better, smarter ways to do things!
 
 ---
 
@@ -23,7 +21,6 @@ My brain's wired a bit differently (thanks, childhood ADHD), which makes me a un
 - Evidence based decision making
 - Welfare and Social Economics
 - Community services
-- Economic empowerment
 - Technology
 
 ---
@@ -89,11 +86,13 @@ Raise funds for the Oaktree Foundation through an interfaith charity banquet wit
 ### Notable professional achievements
 
 - Recognition by Microsoft Security Research Centre for the identification of security vulnerability [CVE-2022-24480](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2022-24480)- A severe vulnerability in the Outlook app for Android, which allows for the elevation of privilege when an attacker gains access, resulting in an impact on confidentiality, integrity and availability.
+
 - Provided expert evidence for the District Court of Western Australia regarding the integrity of electronic documents and records.
 
 ---
 
 ### Projects that I have been involved in
+
 - [Mental and Physical Safety on Our Roads](https://www.injurymatters.org.au/programs/mapsonourroads/#:~:text=The%20MaPS%20on%20our%20Roads,our%20essential%20goods%20and%20services.)
 - Why do leaders detail? Exploring and developing leadership overqualification as an exploratory construct
 - What about me? Factors affecting individual adaptive coping capacity across different population groups
@@ -103,6 +102,6 @@ Raise funds for the Oaktree Foundation through an interfaith charity banquet wit
 
 ---
 
-### Publication
+### [Publication](#Publication)
 
 Luksyte, Aleksandra & Wong, Eugene. (2013). [Overqualification and Voluntary Turnover: Examining the Multi-Path Model in A Closer Look at the Overqualification-Outcomes Relationships: Examining Moderators and Mediators](https://www.researchgate.net/publication/276893991_A_Closer_Look_at_the_Overqualification-Outcomes_Relationships_Examining_Moderators_and_Mediators). Academy of Management Proceedings. 2013. 15507-15507. 10.5465/AMBPP.2013.15507symposium.
