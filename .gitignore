@@ -1,0 +1,10 @@
+/.quarto/
+_site/
+*.Rproj
+.Rhistory
+.RData
+*.qmd
+*.ipynb
+*.rds
+*.rdata
+*.log
