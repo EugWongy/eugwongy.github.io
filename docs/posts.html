@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About me – Eugene Wong</title>
+<title>posts – Eugene Wong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,11 +29,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -68,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-reading-time','listing-categories','listing-description','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EYT98HCJJG"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -96,10 +128,38 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="About me – Eugene Wong">
-<meta property="og:description" content="Husband &amp; Father | Data Analyst | Welfare Economist | Community Services | Co- Founder of Itsy Websy Technology">
+<meta property="og:title" content="posts – Eugene Wong">
 <meta property="og:site_name" content="Eugene Wong">
 </head>
 
@@ -125,7 +185,7 @@ cookieconsent.run({
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
@@ -133,7 +193,7 @@ cookieconsent.run({
 <span class="menu-text">Databases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Posts</span></a>
   </li>  
 </ul>
@@ -155,141 +215,104 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="EDA">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Road Safety">Road Safety <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About me</h1>
-<p class="subtitle lead">Husband &amp; Father | Data Analyst | Welfare Economist | Community Services | Co- Founder of Itsy Websy Technology</p>
+<h1 class="title">posts</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="https://github.com/EugWongy" class="about-link" rel="" target="_blank">
-    <i class="bi bi-Github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:ew@eugenewong.com.au" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">Get in touch</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>I believe that data can help take us a long way in making better decisions. I’m passionate about evidence-based decision making and the practical use of it. My areas of interest lie in the practical application of Welfare and Social Economics- the study of the relationship between resource allocation in society and social well-being.</p>
-<p>My journey with data first started when I studied Economics at University. I later graduated with a Bachelor of Economics (Honours), with majors in Economics, Management and Human Resource Management. My honours journey introduced the art and science of data analytics with my own research project. I found that I excelled in quantitative research and analysis. During that year, I also achieved top grades in HR Analytics, which pulled on a number of Economics concepts at the organisational level.</p>
-<p>As a result of my Honours research, I was hired as a research assistant by one of the professors who graded my Honours research. Under her guidance, I learnt a lot more about statistical analysis and was involved in a number of research projects, where my responsibilities included collecting the data, cleaning the data, analysing the date, and helping with the write up of research publications. As a result of this, I developed a knack for data collection, data cleaning, exploratory data analysis and regression analysis. My proudest achievement was when my data analytical skills helped conceptualise a piece of research that led to the presentation of the research at an <a href="#publication">Academy of Management symposium</a>. Since leaving my role in research, my economics knowledge, data analytics and evidence based decision making skills have been applied practically in the various roles I’ve undertaken.</p>
-<p>I’m a naturally curious thinker with an infectious smile 😃 and a knack for getting things done. I might seem a little shy at first, but once we click, I won’t stop talking! Loyalty and responsibility are everything to me, especially when it comes to family and friends. As an INTP (Logician), I love exploring unconventional ideas, solving puzzles, and questioning the world around me. My ADHD-wired brain makes me a hands-on learner who thrives on creativity and innovation. I don’t just accept “that’s the way it’s always been”—I’m all about finding better, smarter ways to do things!</p>
-<hr>
-<section id="what-im-passionate-about" class="level3">
-<h3 data-anchor-id="what-im-passionate-about">❤️ What I’m passionate about</h3>
-<ul>
-<li>Evidence based decision making</li>
-<li>Welfare and Social Economics</li>
-<li>Community services</li>
-<li>Technology</li>
-</ul>
-<hr>
-</section>
-<section id="my-unique-skills" class="level3">
-<h3 data-anchor-id="my-unique-skills">My unique skills</h3>
-<ul>
-<li>I’ve got a ultra special ability to solve problems in the most unique ways. If you want a problem solved, just tell me the expected outcome, give me the resources, what is the time limit and don’t ask how I do it. It will magically get dealt with.</li>
-<li>I’m able to learn systems and procedures extremely fast just from observation and trying it myself.</li>
-<li>I have the ability to be rather accurate at interpreting body language.</li>
-<li>I’m able to identify big picture patterns and trends.</li>
-</ul>
-<hr>
-</section>
-<section id="training-qualifications" class="level3">
-<h3 data-anchor-id="training-qualifications">Training &amp; Qualifications</h3>
-<ul>
-<li>Bachelor of Economics (Honours)</li>
-<li>Diploma of Community Services</li>
-<li>Diploma of Counselling</li>
-<li>Certificate IV Government (Investigations)</li>
-<li>Certificate IV Government (Statutory Compliance)</li>
-<li>Certificate III in Investigative Services</li>
-</ul>
-<hr>
-</section>
-<section id="my-technical-skills" class="level3">
-<h3 data-anchor-id="my-technical-skills">My technical skills</h3>
-<ul>
-<li>R</li>
-<li>SPSS</li>
-<li>Bash</li>
-<li>HTML &amp; CSS</li>
-<li>Computing systems</li>
-<li>Networking</li>
-<li>Technical support</li>
-</ul>
-<hr>
-</section>
-<section id="my-community-services" class="level3">
-<h3 data-anchor-id="my-community-services">✋ My community services</h3>
-<p>Giving back to the community is something I really value.</p>
-<details>
-<summary>
-Justice of the Peace (resigned)
-</summary>
-<p>A voluntary position to provide a service to the community by performing the duties the law imposes on JPs and to assist in the administration of justice and in the maintenance of peace, order and good government. Duties include issuing search warrants, witnessing affidavits, statutory declarations and certifying documents.</p>
-</details>
-<details>
-<summary>
-ICT and Security Support
-</summary>
-<p>Responsible for the coordination, set up, maintenance, procurement, disposal and critical response of the computing systems and information network and security.</p>
-</details>
-<details>
-<summary>
-Organising Committeed for Food for Thought
-</summary>
-<p>Raise funds for the Oaktree Foundation through an interfaith charity banquet with the aim of sharing religious beliefs and develop understanding of other faiths.</p>
-</details>
-<details>
-<summary>
-Eyes on the Street
-</summary>
-<p><a href="https://www.perthnow.com.au/community-news/canning-gazette/drive-to-cut-crime-c-905135">A safer neighbourhood initiative partnerinig with driving instructors</a></p>
-</details>
-<hr>
-</section>
-<section id="notable-professional-achievements" class="level3">
-<h3 data-anchor-id="notable-professional-achievements">Notable professional achievements</h3>
-<ul>
-<li><p>Recognition by Microsoft Security Research Centre for the identification of security vulnerability <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2022-24480">CVE-2022-24480</a>- A severe vulnerability in the Outlook app for Android, which allows for the elevation of privilege when an attacker gains access, resulting in an impact on confidentiality, integrity and availability.</p></li>
-<li><p>Provided expert evidence for the District Court of Western Australia regarding the integrity of electronic documents and records.</p></li>
-</ul>
-<hr>
-</section>
-<section id="projects-that-i-have-been-involved-in" class="level3">
-<h3 data-anchor-id="projects-that-i-have-been-involved-in">Projects that I have been involved in</h3>
-<ul>
-<li><a href="https://www.injurymatters.org.au/programs/mapsonourroads/#:~:text=The%20MaPS%20on%20our%20Roads,our%20essential%20goods%20and%20services.">Mental and Physical Safety on Our Roads</a></li>
-<li>Why do leaders detail? Exploring and developing leadership overqualification as an exploratory construct</li>
-<li>What about me? Factors affecting individual adaptive coping capacity across different population groups</li>
-<li>“Releasing the beast:” The interactive effects of presenteeism and demographic dissimilarity on co-worker’s task engagement, helping, and counterproductive work behaviours</li>
-<li>Overqualification among different demographic groups: consequences and moderators</li>
-<li>Understanding online training transfer through the theory of planned behaviour: an extension and organisational application.</li>
-</ul>
-<hr>
-</section>
-<section id="publication" class="level3">
-<h3 data-anchor-id="publication">Publication</h3>
-<p>Luksyte, Aleksandra &amp; Wong, Eugene. (2013). <a href="https://www.researchgate.net/publication/276893991_A_Closer_Look_at_the_Overqualification-Outcomes_Relationships_Examining_Moderators_and_Mediators">Overqualification and Voluntary Turnover: Examining the Multi-Path Model in A Closer Look at the Overqualification-Outcomes Relationships: Examining Moderators and Mediators</a>. Academy of Management Proceedings. 2013. 15507-15507. 10.5465/AMBPP.2013.15507symposium.</p>
+  
 
 
-</section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-    <img src="profilepic.png" class="about-image
-  rounded " style="width: 15em;">
-  </div>
 </div>
- <!-- /main -->
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Data Analysis,Road Safety,EDA" data-listing-date-sort="1738080000000" data-listing-file-modified-sort="1738657915001" data-listing-date-modified-sort="1738080000000" data-listing-reading-time-sort="13" data-listing-word-count-sort="2522">
+<a href="./posts/EDA_ARDD_2025_02_03/EDA_ARDD_2025_02_03.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top"><img src="posts/EDA_ARDD_2025_02_03/EDA_ARDD_2025_02_03_files/figure-html/unnamed-chunk-5-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploratory Data Analysis of Australian Fatal Crash Data
+</h5>
+<div class="listing-reading-time card-text text-muted">
+13 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Analysis'); return false;">
+Data Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Road Safety'); return false;">
+Road Safety
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EDA'); return false;">
+EDA
+</div>
+</div>
+<div class="card-text listing-description">
+This is an analysis of Australian fatal car crash data from the Australian Road Deaths Dataset <span class="citation" data-cites="bitre2024">(BITRE, 2024)</span>. Exploratory data analysis is used to explore the data to…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Eugene Wong
+</div>
+<div class="listing-date">
+3 01 yyyy
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -454,6 +477,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
