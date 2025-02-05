@@ -9,7 +9,7 @@
 <meta name="author" content="Eugene Wong">
 <meta name="dcterms.date" content="2025-01-29">
 
-<title>Exploratory Data Analysis of Australian Fatal Crash Data – Eugene Wong</title>
+<title>Time trends and patterns of Australian fatal crashes – Eugene Wong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -155,15 +155,15 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Exploratory Data Analysis of Australian Fatal Crash Data – Eugene Wong">
-<meta property="og:description" content="">
+<meta property="og:title" content="Time trends and patterns of Australian fatal crashes – Eugene Wong">
+<meta property="og:description" content="The genie insight- Insightful analytics, meaningful change.">
 <meta property="og:site_name" content="Eugene Wong">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -178,7 +178,7 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -187,16 +187,14 @@ cookieconsent.run({
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../databases.html"> 
-<span class="menu-text">Databases</span></a>
+<span class="menu-text">Helpful public databases</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Posts</span></a>
+<span class="menu-text">Blogs &amp; Analyses</span></a>
   </li>  
 </ul>
-              <div class="quarto-navbar-tools tools-wide">
-    <a href="https://github.com/EugWongy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="mailto:ew@eugenewong.com.au" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope-at"></i></a>
+              <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -207,49 +205,36 @@ cookieconsent.run({
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Time trends and patterns of Australian fatal crashes</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Exploratory Data Analysis of Australian Fatal Crash Data</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Data Analysis</div>
-                <div class="quarto-category">Road Safety</div>
-                <div class="quarto-category">EDA</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Eugene Wong </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 29, 2025</p>
-      </div>
-    </div>
-    
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">January 29, 2025</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p>The Gini Insight</p>
+</div></div>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../profilepic.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/EugWongy" title="Github" class="quarto-navigation-tool px-1" aria-label="Github" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="mailto:ew@eugenewong.com.au" title="Get in touch" class="quarto-navigation-tool px-1" aria-label="Get in touch"><i class="bi bi-envelope-at"></i></a>
+</div>
+      </div>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>Insightful analytics, meaningful change.</p>
+</div></div></nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -275,10 +260,48 @@ cookieconsent.run({
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Time trends and patterns of Australian fatal crashes</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Data Analysis</div>
+    <div class="quarto-category">Road Safety</div>
+    <div class="quarto-category">EDA</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eugene Wong </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 29, 2025</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 29, 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="introduction" class="level2">
@@ -740,8 +763,7 @@ Attaching package: 'dplyr'</code></pre>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <ul>
-<li>The full R script can be accessed from https://github.com/EugWongy/Australian-Fatal-Car-Crashes.git</li>
-<li>Find out more about me- <a href="https://eugwongy.github.io/" class="uri">https://eugwongy.github.io/</a>.</li>
+<li>The full R script can be downloaded from my Github repository- <a href="https://github.com/EugWongy/Australian-Fatal-Crash_Fatal-Crash_EDA.git" class="uri">https://github.com/EugWongy/Australian-Fatal-Crash_Fatal-Crash_EDA.git</a>.</li>
 <li>I welcome any feedback, improvements or questions about my work. Give me a shout out <a href="mailto:ew@eugenewong.com.au">ew@eugenewong.com.au</a>.</li>
 </ul>
 
@@ -1372,7 +1394,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb33" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Exploratory Data Analysis of Australian Fatal Crash Data"</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Time trends and patterns of Australian fatal crashes"</span></span>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Eugene Wong"</span></span>
 <span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "29 January 2025"</span></span>
 <span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> "29 January 2025"</span></span>
@@ -1686,9 +1708,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb33-331"><a href="#cb33-331" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb33-332"><a href="#cb33-332" aria-hidden="true" tabindex="-1"></a><span class="fu">## Notes</span></span>
 <span id="cb33-333"><a href="#cb33-333" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-334"><a href="#cb33-334" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>The full R script can be accessed from https://github.com/EugWongy/Australian-Fatal-Car-Crashes.git</span>
-<span id="cb33-335"><a href="#cb33-335" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Find out more about me- <span class="ot">&lt;https://eugwongy.github.io/&gt;</span>.</span>
-<span id="cb33-336"><a href="#cb33-336" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>I welcome any feedback, improvements or questions about my work. Give me a shout out <span class="co">[</span><span class="ot">ew\@eugenewong.com.au</span><span class="co">](mailto:ew@eugenewong.com.au)</span>.</span>
+<span id="cb33-334"><a href="#cb33-334" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>The full R script can be downloaded from my Github repository- <span class="ot">&lt;https://github.com/EugWongy/Australian-Fatal-Crash_Fatal-Crash_EDA.git&gt;</span>.</span>
+<span id="cb33-335"><a href="#cb33-335" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>I welcome any feedback, improvements or questions about my work. Give me a shout out <span class="co">[</span><span class="ot">ew\@eugenewong.com.au</span><span class="co">](mailto:ew@eugenewong.com.au)</span>.</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
@@ -1698,11 +1719,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>Copyright 2025 Eugene Wong</p>
 </div>   
     <div class="nav-footer-center">
-<p>I would like to acknowledge and pay my respects to the Whadjuk people of the Noongar mation as the traditional custodoams of the country and waters in which I have lived and grown up on.</p>
+
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p>I would like to acknowledge and pay my respects to the Whadjuk people of the Noongar mation as the traditional custodoams of the country and waters in which I have lived and grown up on.</p>
+</div>
   </div>
 </footer>
 
