@@ -1,0 +1,60 @@
+# Main
+project:
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    page-layout: article
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+website:
+  title: "Eugene Wong"
+  description: The genie insight- Insightful analytics, meaningful change.
+  back-to-top-navigation: true
+  open-graph: true
+  google-analytics: "G-EYT98HCJJG"
+  cookie-consent: true
+  reader-mode: true
+
+# Navbar/ Menu
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About me"
+        href: about.qmd
+      - text: "Helpful public databases"
+        href: databases.qmd
+      - text: "Blogs & Analyses"
+        href: posts.qmd
+    tools-collapse: true
+    collapse: true
+    pinned: true
+    reader-mode: true
+    toggle-position: right
+
+#Sidebar:
+  sidebar:
+    header: "The Gini Insight"
+    footer: "Insightful analytics, meaningful change."
+    logo: profilepic.png
+    style: docked
+    pinned: true
+    tools:
+      - icon: github
+        text: Github
+        target: _blank
+        href: https://github.com/EugWongy
+      - icon: envelope-at
+        text: Get in touch
+        href: mailto:ew@eugenewong.com.au
+    
+# Footer
+  page-footer: 
+    left: "Copyright 2025 Eugene Wong"
+    right: "I would like to acknowledge and pay my respects to the Whadjuk people of the Noongar mation as the traditional custodoams of the country and waters in which I have lived and grown up on."
